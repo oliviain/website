@@ -27,7 +27,7 @@ img{ margin:0 auto;}
 </html>···
 
 设置文本中的图像的对齐方式：
-···<img src="/i/eg_cute.gif" align="middle" />···
+<img src="/i/eg_cute.gif" align="middle" />···
 
 
 
