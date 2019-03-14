@@ -1,0 +1,39 @@
+/*-----------------------------全局样式-------------------------------------*/ 
+*{margin:0;padding:0}
+li{list-style:none} 
+img{vertical-align:top;border:none}
+legend{display:none} 
+fieldset{border:none} 
+a{text-decoration:none} 
+a:hover,a:active{text-decoration:none} 
+.clear {clear: both; }
+/*-----------------------------登录页面-------------------------------------*/ 
+body{font:12px/1.5 Microsoft YaHei;position:relative;margin:0 auto;color:#000} 
+#container{    
+    width:960px;  
+    height: 588px;
+    box-shadow: 0 0 15px #999999;    
+    margin: 0 auto;    
+    overflow-x: hidden;    
+    position: relative; 
+}
+.login{background:#0c7fc2 url(../images/bg.png) no-repeat center top ;width:1000px; height: 700px;}
+
+
+.login_hd{background:url(../images/logo2.png) no-repeat;float:left;margin:20px 20px 0;width:600px;height:80px;}
+
+.login_main{position:absolute center right; background:url(../images/logo_main.png) no-repeat; float:right;margin:80px 130px 200px;width:304px;height:309px;}
+.login_help{float:right;margin:5px -16px 10px;width:100px;height:30px;font-size: 14px;color:#1e7bbd} 
+.login_help a{color:#fff} 
+.login_form{width:272px;height:170px;padding:28px 28px 0 26px;color:#000101;position:relative; } 
+.username{height:57px;margin:42px 90px 13px} 
+.password{height:57px;margin:-25px 90px 13px;} 
+.username input,.password input{width:160px;height:32px;border:0;color:#999;font-size:14px;line-height:32px} 
+.username input{position:absolute; top:80px; left:60px; }
+.password input{position:absolute; top:140px; left:60px; }  
+.go{text-align:center;height:42px;margin:0;position:absolute; top:150px; left:240px;}
+.go input{background:url(../images/go.png)no-repeat;border:0;width:18px;height:42px;cursor:pointer;text-indent:-9999px;*text-indent:0;*line-height:9999px;overflow:hidden}
+.forget_btn{text-align:center;height:42px;margin:0;position:absolute; top:260px; left:15px; } 
+.forget_btn input{background:url(../images/forget_btn.png)no-repeat;border:0;width:188px;height:42px;cursor:pointer;text-indent:-9999px;*text-indent:0;*line-height:9999px;overflow:hidden}
+.guest{float:left;margin:10px 20px 0;width:350px;height: 30px;font-size:14px;position:absolute;top:200px;left:20px;text-align: center;color:rgb(219, 15, 15)}
+.guest a{color:#fff}
