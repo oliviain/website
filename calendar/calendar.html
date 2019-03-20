@@ -1,0 +1,233 @@
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html;charset=utf-8"/>
+        <title>Calendar</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/> 
+        
+    </head>
+    <body>
+            
+        
+        <div>
+<table class="clmonth" summary="Calendar for March 2019">    <span style="font-family: Arial, Helvetica, sans-serif;"><h4>日程管理</h4></span>
+    
+    <caption>March 2019</caption>                    
+
+    <tr>                                              <!--每个tr的个数都为7，正好与日期对应 -->                             
+
+        <th scope="col">Monday</th>               <!--表头内容周一至周日-->
+
+		<th scope="col">Tuesday</th>
+
+		<th scope="col">Wednesday</th>
+
+		<th scope="col">Thursday</th>
+
+		<th scope="col">Friday</th>
+
+		<th scope="col">Saturday</th>
+
+		<th scope="col">Sunday</th>
+
+	</tr>
+
+	<tr>                
+
+        <td class="previous">25</td>              <!--上个月的日期-->
+        <td class="previous">26</td>  
+
+		<td class="previous">27</td>      
+
+		<td class="previous">28</td>      
+
+		<td class="active">1                     
+
+		<ul>
+
+			<li>上午 本部理教505 创业大讲堂</li>
+
+			<li>下午 朝阳区 送档案</li>
+
+		</ul>
+
+		</td>                                   <!--本月添加安排的日期-->
+
+		<td>2</td>
+
+		<td>3</td>
+
+			
+
+	</tr>
+
+	<tr>
+        <td>4</td>	
+		<td>5</td>
+
+		<td>6</td>
+
+		<td class="active">7
+
+		<ul>
+
+			<li>上午 大兴 考试结束</li>
+
+		</ul>
+
+		</td>
+
+		<td>8</td>
+
+		<td class="active">9
+
+		<ul>
+
+			<li>下午 校医院 体检</li>
+
+		</ul>
+
+		</td>
+
+		<td>10</td>
+
+		
+
+	</tr>
+
+	<tr>
+        <td>11</td>
+		<td>12</td>
+
+		<td>13</td>
+
+		<td>14</td>
+
+		<td>15</td>
+
+		<td>16</td>
+
+		<td class="active">17
+
+		<ul>
+
+			<li>上午 大兴 自学</li>
+
+		</ul>
+
+		</td>
+
+		
+
+	</tr>
+
+	<tr>
+        <td class="active">18
+
+            <ul>
+    
+                <li>晚上 大兴 写作业</li>
+    
+            </ul>
+    
+            </td>
+		<td>19</td>
+
+		<td>20</td>
+
+		<td class="active">21
+
+		<ul>
+
+			<li>晚上 颐和园 出去晚</li>
+
+		</ul>
+
+		</td>
+
+		<td>22</td>
+
+		<td>23</td>
+
+		<td id="today">24
+
+		<ul>
+
+            <li>上午 大兴3203 计算机科学</li>
+            <li>下午 本部二教505 阿里巴巴实习讲座</li>
+
+		</ul>
+
+		</td>
+
+		
+
+	</tr>
+
+	<tr>
+        
+		<td>26</td>
+
+		<td>27</td>
+
+		<td>28</td>
+
+		<td>29</td>
+
+		<td>30</td>
+
+		<td>31</td>
+        <td class="next">1</td> 
+		     
+
+	</tr>
+
+	<tr>
+        
+		<td class="next">2</td>                   <!--下个月的日期-->
+
+		<td class="next">3</td>
+
+		<td class="next">4</td>
+
+		<td class="next">5</td>
+
+		<td class="next">6</td>
+
+		<td class="next">7</td>
+
+		<td class="next">8</td>
+
+    </tr>
+    </div>
+    
+    <div class="schedule">
+            <div class="usertype">
+                    <select>
+                    <option value="normal user">普通用户</option>
+                    <option value="leader of department">部门领导</option>
+                    <option value="leader of school">院系领导</option>
+                    <option value="administrator">管理员</option>
+                  </select>
+            </div>
+        <form action="" method="POST"> 
+            <fieldset>
+                <legend>今日日程</legend>
+                <p>上午 大兴3203 计算机科学</p>
+                <p>下午 本部二教505 阿里巴巴实习讲座</p>
+                <br> 时间：
+                <input type="text" />
+                <br> 地点：
+                <input type="text" />
+                <br> 事件：
+                <input type="text" />
+                <br> 备注：
+                <input type="text" />
+                <br>
+                <input type="submit" value="提交修改" >
+                <input type="button" value="退出">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
+

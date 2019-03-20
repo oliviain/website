@@ -1,0 +1,104 @@
+table tr td { padding:10px 0;} 
+.clmonth{
+
+	border-collapse:collapse;           
+
+	width:780px;
+	position: absolute;
+	float: left;
+	margin:10px 200px 0px 0px;
+
+}
+
+.clmonth caption{                                         //调整字体样式
+
+	text-align:left;
+
+	font:bold 130% Georgia,"Times New Roman";
+
+	padding-bottom:6px;
+
+}
+
+.clmonth th{                                              //调整表头周一至周日的单元格样式
+
+	border:1px solid #999999;
+
+	border-bottom:none;
+
+	padding:2px 8px 2px 8px;
+
+	background-color:#D3D2A0;
+
+	color:#2F2F2F;
+
+	font:80% Verdana,Geneva,Arial,Helvetica,sans-serif;
+
+	width:110px;
+
+}
+
+.clmonth td{                                               //调整所有日期单元格样式
+
+	height:100px; 
+	width:100px;
+
+	border:1px solid #AFAFAF;
+
+	font:75% Verdana,Geneva,Arial,Helvetica,sans-serif;
+
+	padding:2px 4px 2px 4px;
+
+	vertical-align:top;
+
+}
+
+.clmonth ul{                                               //调整填写的安排内容样式
+	height:100px;
+	width:100px;
+	list-style-type:none;
+
+	margin:0;
+
+	padding-left:12px;
+
+	padding-right:6px;                
+
+}
+
+.clmonth li{
+	list-style-type:none;
+	margin-bottom:8px;               
+
+}
+
+.clmonth td.previous,.clmonth td.next{                    //调整上月和下月的日期单元格样式
+
+	background-color:#F5F4E6;                         //背景色
+
+	color:#A6A6A6;                                    //前景色
+
+} 
+
+.clmonth td.active{                                       //调整本月添加安排的单元格样式
+
+	background-color:#B1CBE1;                         //背景颜色
+
+	color:#2B5070;                                    //前景色
+
+	border:2px solid #4682B4;                         //边框
+
+}	
+.clmonth td#today{  
+	
+	padding: 5px;
+    background: #1abc9c;
+	color: white !important
+}
+
+.schedule{
+	position: absolute top right;
+	float:right;
+	margin: 0px 40px 0 300px;
+
+}
