@@ -38,9 +38,7 @@ PUT
 
 -----
 
-<u>$_GET 是通过 URL 参数传递到当前脚本的变量数组。</u> get是把参数数据队列加到提交表单的action属性所指的url中，值和表单内各个字段一一对应，从url中可以看到；
-
-<u>$_POST 是通过 HTTP POST 传递到当前脚本的变量数组。</u>post是通过HTTPPOST机制，将表单内各个字段与其内容防止在HTML的head中一起传送到action属性所指的url地址，用户看不到这个过程 
+get是把参数数据队列加到提交表单的action属性所指的url中，值和表单内各个字段一一对应，从url中可以看到；post是通过HTTPPOST机制，将表单内各个字段与其内容防止在HTML的head中一起传送到action属性所指的url地址，用户看不到这个过程 
 
 对于get方式，服务器端用Request.QueryString获取变量的值，对于post方式，服务器端用Request.Form获取提交的数据 
 
@@ -57,9 +55,9 @@ Get是向服务器发索取数据的一种请求，而Post是向服务器提交�
 　　(2).理论上讲，POST是没有大小限制的，HTTP协议规范也没有进行大小限制，说“POST数据量存在80K/100K的大小限制”是不准确的，POST数据是没有限制的，起限制作用的是服务器的处理程序的处理能力。 
 　　对于ASP程序，Request对象处理每个表单域时存在100K的数据长度限制。但如果使用Request.BinaryRead则没有这个限制。 
 
----------------------
+　　
+--------------------- 
 作者：PickJerry 
 来源：CSDN 
 原文：https://blog.csdn.net/u014311799/article/details/78847644 
 版权声明：本文为博主原创文章，转载请附上博文链接！
-
