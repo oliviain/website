@@ -1,4 +1,3 @@
-# website
 ## 易错点：
 图片不显示
 Psd格式的不显示，jpg,gif都可以
