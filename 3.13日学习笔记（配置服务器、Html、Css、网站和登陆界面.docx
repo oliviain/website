@@ -18,8 +18,6 @@ GPGCHECK是检查软件包是否被篡改的一个重要工具。1是启用，0�
 
 2.查看该目录下的所有.repo文件
 
-\#ll
-
 3.删除多余.repo文件，只保留：
 
 CentOS-Debuginfo.repo
@@ -30,19 +28,7 @@ CentOS-Base.repo （在线yum源安装使用的配置文件）
 
 CentOS-Media.repo   （光盘yum源使用的配置文件）
 
-\--------------------- 
 
-作者：wo达达的马蹄声  - 
-
-来源：CSDN 
-
-原文：https://blog.csdn.net/weixin_43968936/article/details/84872513 
-
-版权声明：本文为博主原创文章，转载请附上博文链接！
-
-
-
-问题：SSH服务器拒绝了密码
 
 
 
